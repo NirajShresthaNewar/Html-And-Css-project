@@ -38,17 +38,12 @@
 }
 .navbar{
   overflow: auto;
-
-
 }
 
 .navbar li{
   float: left;
   list-style: none;
   margin: 12px 20px;
-  
-  
-
 }
 .navbar li a{
   color: #fff;
@@ -199,13 +194,7 @@ padding-top:15% ;
   border-radius: 20px;
 }
 
-.container-nav h1{
-  padding-top: 10%;
-  text-align: center;
-  color: #fff;
 
-
-}
 .footer p,ul{
   text-align: center;
   
@@ -246,32 +235,29 @@ th,td{
   
   
   border-radius: 5px;
-  background-color:#EF9273;
-  
-  
+  background: linear-gradient(to bottom right, #77C9D4, #57BC90);
   margin: 2rem;
   width: 350px;
   padding: 2rem;
 }
 .home4{
   display: flex;
-
   height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
-
 }
+
 .container-2{
   display: flex;
 }
+
 .item-box
 {
   border-radius: 5px;
-  background-color:#EF9273;
+  background: linear-gradient(to bottom right, #77C9D4, #57BC90);
  
   
   margin: 2rem;
@@ -350,18 +336,15 @@ border-radius: 10px;
   
   width: 400px;
   height: 80vh;
-  padding: 1.5rem;  
+  padding: 1.3rem;  
  
-  margin: 1.5rem;
-  
- 
- 
-  
+  margin: 1rem;
+ box-sizing: border-box;
   
 }
 .continent img{
-  width: 400px;
-  height: 70vh;
+  width: 390px;
+  height: 65vh;
   border-radius: 15px;
 
 }
@@ -389,14 +372,78 @@ border-radius: 10px;
   
   
   border-radius: 5px;
-  background-color:#EF9273;
+  background: linear-gradient(to bottom right, #77C9D4, #57BC90);
  
   
   margin: 2rem;
   width: 350px;
   padding: 2rem;
 }
+/*start footer*/
+footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+ 
+  width: 100%;
+  box-sizing:border-box;
+}
 
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+footer li a::after{
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+
+}
+footer li a:hover::after{
+
+  width: 100%;
+
+}
+
+footer .social-media {
+  margin-top: 20px;
+}
+
+footer .social-media a {
+  display: inline-block;
+  margin-right: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  color: #222;
+  text-align: center;
+  line-height: 40px;
+}
+
+
+footer .social-media a:hover {
+  background: linear-gradient(blue,pink);
+}
+/* end footer*/
 .signin{
   
 
@@ -411,7 +458,7 @@ border-radius: 10px;
   width: 500px;
   display: flex;
   flex-direction: column;
-  background-color:#bd8f80;
+  background: linear-gradient(to bottom right ,#77C9D4,#57BC90);
   color: #fef9f8;
   
   border: 10px;
@@ -423,7 +470,8 @@ border-radius: 10px;
 }
 /*service*/
 .room-finder-search {
-  background-color: #dfa591;
+  background: linear-gradient(to bottom right, #77C9D4, #57BC90);
+    
     color: #fef9f8;
 
 
@@ -451,9 +499,9 @@ border-radius: 10px;
 
 
 
-.living-room {
-  background-color: #ffd3c4;
-}
+/*.living-room {
+  background: linear-gradient(to bottom right, #77C9D4, #57BC90);
+}*/
 
 .living-room .filter {
   margin-bottom: 5px;
@@ -477,13 +525,12 @@ border-radius: 10px;
   padding: 12px 25px;
   font-size: 16px;
   color:#fef9f8;
-  background-color: #ff1500;
- 
+  background-color:#57BC90;
   cursor: pointer;  
 }
 .search-btn:hover{
-  border: 1px solid #695150;
-  background: #ebc3c0;
+  
+  background: #f44336;
   transition: 1s;
 }
 .text-h1{
