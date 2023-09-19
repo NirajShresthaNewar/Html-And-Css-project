@@ -292,9 +292,6 @@ th,td{
 }
 .container-3{
   border-radius:15px ;
-  
-  
-  
   display: flex;
   overflow: hidden;
 }
@@ -309,7 +306,7 @@ th,td{
 
 }
 .img1{
-border-radius: 10px;
+  border-radius: 10px;
   width: 375px;
 }
 .home7{
@@ -319,8 +316,6 @@ border-radius: 10px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  
-  
   align-items: center;
 
 
@@ -329,33 +324,83 @@ border-radius: 10px;
 .container-4
 {
   display: flex;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  column-gap: 1rem;
+ 
   
+ 
 }
 
 .continent{
-  
-  width: 400px;
+  width: 100%;
   height: 80vh;
-  padding: 1.3rem;  
+ border-radius: 10px;
  
-  margin: 1rem;
- box-sizing: border-box;
-  
+   position: relative;
+  overflow: hidden;
+  text-align: center;
+ 
 }
 .continent img{
-  width: 390px;
-  height: 65vh;
+  width: 100%;
+  height: 100%;
   border-radius: 15px;
+
+
+}
+.layer{
+  background: transparent;
+  height: 100%;
+  width: 100%;
+  padding: 1.3rem;  
+   top: 0;
+  left: 0;  
+  transition: 0.5;
+  
+  position: absolute;
+  transition: 1s;
+  font-weight: 300;
+  font-size: 20px;
+
+ 
+  
+}
+.layer:hover{
+  background: rgba(226,0, 0, 0.7);
+}
+.arrange {
+  
+  
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition:2s;
+  color: #fff;
+  
+}
+.arrange:hover{
+
+  bottom: 50%;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.arrange ul {
+  list-style-type: none;
 
 }
 
 .home6{
   display: flex;
-  column-gap: 20px;
   height: 100vh;
   width: 100%;
   
   flex-direction: column;
+  column-gap: 20px;
   align-items: center;
   justify-content: center;
 
@@ -372,9 +417,7 @@ border-radius: 10px;
   
   
   border-radius: 5px;
-  background: linear-gradient(to bottom right, #77C9D4, #57BC90);
- 
-  
+  background: linear-gradient(to bottom right, #77C9D4, #57BC90); 
   margin: 2rem;
   width: 350px;
   padding: 2rem;
@@ -447,38 +490,60 @@ footer .social-media a:hover {
 .signin{
   
 
-  margin: 130px 0 0 500px;
+  margin: 80px 0 0 485px;
 
 
 
 }
+.login-btn{
+  width: 80%;
+  height: 40px;
+  border-radius: 10px;
+ /* background: transparent;*/
+}
 .sig{
 
   height: 60vh;
-  width: 500px;
+  width: 375px;
   display: flex;
   flex-direction: column;
-  background: linear-gradient(to bottom right ,#77C9D4,#57BC90);
+  background: transparent;
+  backdrop-filter: blur(6px);
   color: #fef9f8;
   
-  border: 10px;
+  border: 3px solid whitesmoke;
   border-radius: 15px;
   justify-content: center;
   align-items: center;
 
 
 }
+.boxbar{
+  width: 80%;
+  height: 30px;
+  background:transparent;
+  border: none;
+  outline: none;
+  font-size: 1em;
+  color: #fef9f8;
+  border-bottom: 2px solid #fff;
+}
+.label-box{
+  margin-right: 230px;
+  
+}
 /*service*/
 .room-finder-search {
-  background: linear-gradient(to bottom right, #77C9D4, #57BC90);
+  background: transparent;
+  backdrop-filter: blur(15px);
     
     color: #fef9f8;
 
 
   width: 700px;
-  margin: 40px 450px;
+  margin: 10px 0 0 375px;
 
-  border: 1px solid black;
+  border: 1px solid rgb(238, 230, 230);
   border-radius: 15px;
   padding: 10px;
 }
@@ -535,7 +600,7 @@ footer .social-media a:hover {
 }
 .text-h1{
   color: #f3efef;
- margin: 0px 0 0 550px;
+ margin: 20px 0 0 525px;
 }
 
 
